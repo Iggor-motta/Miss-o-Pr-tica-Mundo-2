@@ -1,0 +1,48 @@
+
+.card-receitas{
+    display:flex;
+    justify-content:space-between;
+
+   
+        
+
+}
+.card-img{
+    display: flex;
+    height: 200px;
+    width: 275px;
+    padding-top:0;
+    margin-top: 0;
+    margin-left:0;
+}
+
+.card-text{
+    margin-right:10px;
+    margin-left: 40px;
+    
+}
+
+.card-title{
+    font-size:20px;
+    margin:15px;
+    text-align:center;
+}
+
+.mododepreparo{
+    padding-top: 20px;
+    margin: 10px;
+}
+.card-receitas{
+    margin:15px;
+    margin-bottom: 25px;
+    height:580px;
+    text-align:justify;
+}
+  
+.card-body{
+    background-color: rgba(243, 243, 165, 0.986);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    
+}

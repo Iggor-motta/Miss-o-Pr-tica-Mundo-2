@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ main{
+    overflow-y: auto;
+    height:calc(100vh - 100px);
+ }
+
+header{
+    background-color: rgb(99, 97, 97);
+    color: white;
+    height:60px calc(100vh - 100px);
+    
+}
+.logotipo{
+    width: 50px;
+    height:50px;
+}
+
+body{
+    background-color: rgb(2255, 174, 106);
+    
+}
+    
+.principal{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:100px;
+    }
+
+.container{
+    display: flex;
+    color: white;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+   
+}    
+.nav-item{
+    margin:5px;
+    color: white;
+    
+    
+}
+
+.titulo{
+    display: flex;
+    padding-bottom: 25px;
+    
+}    
+
+.boasvindas{
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+
+    
+}
+
+
+.rodape{
+    background-color: black;
+    color:white;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height:60px calc(100vh - 100px);
+    
+   
+}
+.title{
+    margin-left:15px;
+    margin-top: 30px;
+    
+}
+
+.formulario{
+    display: flex;
+    height: 32px;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
+
+input{
+    border-radius: 5px;
+    margin-left:50px
+    
+
+}
+
+.formulario input[id="nome"], .formulario input[id="email"], .formulario input[id="rua"]{
+    width:600px;
+    
+}
+
+.formulario input[id="rua"]{
+    margin-left: 68px;
+    
+}
+
+.formulario input[id="cep"]{
+    margin-left: 68px;
+    width: 300px;
+}
+    
+.formulario input[id="numero"] {
+     margin-left: 75px;
+     width: 200px;
+}
+
+.formulario input[id="Cidade"]{
+    margin-left:45px;
+    width: 400px;
+}
+
+
+.formulario input[id="complemento"]{
+    margin-left:5px;
+    width: 255px;
+}
+
+.formulario label{
+    margin-left:40px;
+}
+
+
+.formulario input[id="UF"]{
+    width:95px;
+}
+
+
+.botao{
+    display: flex;
+    width: 140px;
+    height:35px;
+    justify-content: center;
+    background-color: rgb(99, 97, 97);
+    color: white; 
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top:1px;
+
+}
+
+.btn{
+    width:125px;
+    background-color: rgb(99, 97, 97);
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
